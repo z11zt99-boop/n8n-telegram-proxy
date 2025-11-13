@@ -1,0 +1,13 @@
+{
+  "name": "n8n-telegram-proxy",
+  "version": "1.0.0",
+  "description": "Simple proxy to forward Telegram webhook posts to n8n",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  }
+}
